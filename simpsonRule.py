@@ -36,7 +36,7 @@ exact = G(b) - G(a) #get actual value for the integral
 answr = simpson(g,a,b,n)
 error = (abs(answr - exact)/exact)*100 #here i am checking for the percentage error
 print('There is an error of: {0:.2f}'.format(error))
-print(exact)
+print('The exact calculation gives: ',exact)
 print('Simpson rule gives: {0:.3f}'.format(answr))
 
 ###########Graphing part of program begins #########################
