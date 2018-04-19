@@ -28,9 +28,6 @@ def simpson(f,a,b,n):
 
 a = 0
 b = 2
-#n = 10
-#n = 100
-#n = 55
 n = 100000
 exact = G(b) - G(a) #get actual value for the integral
 answr = simpson(g,a,b,n)
